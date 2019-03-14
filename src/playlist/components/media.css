@@ -1,0 +1,55 @@
+.Media {
+    cursor: pointer;
+    margin-right: 15px;
+    display: inline-block;
+    width: 270px;
+    vertical-align: top;
+    height: 150px;
+    margin: 0 1em 1em 0;
+    position: relative;
+  }
+
+  .Media:hover .Media-cover {
+    box-shadow: 0 0 10px rgba(0,0,0,.3);
+  }
+
+  .Media-box .text-content{
+    /*  evitar desmaquetado: */
+    height: auto;
+    white-space: pre-line;
+    /*  las demás propiedades asignadas...*/
+  }
+  .Media-cover {
+    transition: .3s;
+    box-shadow: 0 0 5px rgba(0,0,0,.3);
+    height: 160px;
+  }
+  
+  .Media-image {
+    object-fit: cover;
+    display: inline-block;
+    margin: 0 1em 1em 0;
+    position: relative;
+  }
+  
+  .Media-title {
+    margin: 5px 0 0 0;
+    color: #44546b;
+    white-space: normal;
+  }
+  
+  .Media-author {
+    font-size: 12px;
+    margin: 5px 0 0 0;
+  }
+
+  .Media .Media-btn {
+    background-color: #44546b;
+    padding: 10px 30px;
+    text-decoration: none;
+    display: block;
+    width: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    text-transform: uppercase;
+  }

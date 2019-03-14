@@ -1,0 +1,56 @@
+.Playlist {
+  overflow-x: auto;
+  /*width: 500px;*/
+  white-space: nowrap;
+  /*display: flex;*/
+  /*flex-wrap: wrap;*/
+  /*height: 500px;*/
+  /*background: red;*/
+  overflow-y: hidden;
+  padding-bottom: 80px;
+}
+
+/*
+.Playlist-sidenav {
+  display: none;
+  height: 400px;
+  width: 100%;
+  z-index: 6;
+  top: 306px;
+  position:relative;
+  color:#eee;
+  left:0;
+  position:absolute;
+  background: #555;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  overflow-x: hidden;
+  padding-top: 60px;
+}
+
+.Playlist-sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #bbb;
+  display: block;
+  transition: 0.3s
+}
+
+.Playlist-sidenav a:hover, .offcanvas a:focus{
+  color: #f1f1f1;
+}
+
+.Playlist-sidenav .closebtn {
+  position: absolute;
+  top: 0px;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+@media screen and (max-height: 450px) {
+  .Playlist-sidenav {padding-top: 15px;}
+  .Playlist-sidenav a {font-size: 18px;}
+}
+*/

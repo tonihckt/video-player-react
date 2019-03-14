@@ -1,0 +1,12 @@
+.Friend {
+    display: block;
+    margin: 1rem;
+  }
+  .Friend-nombre {
+    vertical-align: middle;
+    font-size: .9rem;
+    line-height: 2rem;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    width: inherit;
+  }

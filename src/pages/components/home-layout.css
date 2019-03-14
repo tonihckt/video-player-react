@@ -1,0 +1,16 @@
+body {
+  margin: 0;
+  font-family: Arial;
+  background: #505a83;
+}
+.HomeLayout {
+  display: flex;
+  margin: 0 auto;
+  min-height: 100vh;
+  margin:0;
+  /*background: #333;*/
+  font-family: helvetica;
+  /*font-family: helvetica,SFMono-Regular,Consolas,Liberation Mono,Menlo,Courier,monospace;*/
+  max-width:1920px;
+  /*overflow:hidden;*/
+}

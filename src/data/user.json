@@ -1,0 +1,11 @@
+{
+	"data":[
+		{
+			"id":0,
+			"name":"User",
+			"surname":"Guest",
+			"avatar":"https://image.flaticon.com/icons/png/512/16/16363.png",
+			"username":"@guestUser"
+		}
+	]
+}

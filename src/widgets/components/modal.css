@@ -1,0 +1,111 @@
+.Modal {
+  max-width: 768px;
+  width: 100%;
+  margin: 0 auto;
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 100px;
+  background:  rgb(238,40,48);
+  padding: 20px;
+  border-radius: 20px;
+  box-shadow: 0 0 10px rgba(0,0,0,.4);
+}
+
+.Modal-edge{
+  background:  rgb(255,225,78);
+
+}
+
+/*
+.Modal-close {
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  right: -25px;
+  top: -25px;
+  border-radius: 50%;
+  border: none;
+  background: #171c30;
+  color: white;
+  cursor: pointer;
+}
+
+
+.Modal-close:after {
+  content: "X";
+  font-weight: bold;
+  font-size: 30px;
+}
+*/
+
+.Modal-close-container {
+  position: absolute;
+  margin: auto;
+  width: 50px;
+  height: 50px;
+  right: -25px;
+  top: -25px;
+  cursor: pointer;
+  background: #1E272D;
+  border: none;
+  border-radius: 10px;
+  display: block;
+  z-index: 200;
+  text-indent: -9999px;
+}
+
+.Modal-leftright {
+  height: 4px;
+  width: 50px;
+  position: absolute;
+  margin-top: 0;
+  background-color: #F4A259;
+  border-radius: 2px;
+  transform: rotate(45deg);
+  transition: all .3s ease-in;
+  margin-left: -6px;
+}
+
+.Modal-rightleft {
+  height: 4px;
+  width: 50px;
+  position: absolute;
+  margin-top: 0;
+  background-color: #F4A259;
+  border-radius: 2px;
+  transform: rotate(-45deg);
+  transition: all .3s ease-in;
+  margin-left: -6px;
+}
+
+.Modal-close-container label {
+  color: white;
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: .6em;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  transition: all .3s ease-in;
+  opacity: 0;
+}
+
+.Modal-close {
+  margin: 60px 0 0 5px;
+  position: absolute;
+}
+
+.Modal-close-container:hover .Modal-leftright {
+  transform: rotate(-45deg);
+  background-color: #F25C66;
+}
+
+.Modal-close-container:hover .Modal-rightleft {
+  transform: rotate(45deg);
+  background-color: #F25C66;
+}
+
+.Modal-close-container:hover label {
+  opacity: 1;
+}
+
+
