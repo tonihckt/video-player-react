@@ -9,7 +9,7 @@
     "build:local": "webpack --env.NODE_ENV=local",
     "build:prod": "webpack -p --env.NODE_ENV=production"
   },
-  "author": "",
+  "author": "Tonito",
   "license": "ISC",
   "description": "",
   "devDependencies": {
